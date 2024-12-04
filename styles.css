@@ -1,0 +1,372 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #4CAF50;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Hero Section with Adjusted Layout */
+  .hero {
+    position: relative;
+    height: 100vh;
+    background: url('assets/bg2.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 4rem; /* Creates space from the edges */
+    color: white;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1;
+  }
+  
+  .hero::after {
+    content: "Photo shot by Yixuan Gao";
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.4); /* Subtle watermark */
+    z-index: 2;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 1fr 350px; /* Increased profile picture column size */
+    gap: 2rem; /* Space between text and picture */
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .about-text {
+    text-align: left;
+  }
+  
+  .about-text h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 1rem;
+  }
+  
+  .about {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 1rem 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .social-icons a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .social-icons a:hover {
+    color: #4CAF50;
+  }
+
+  .profile-picture {
+    margin-top: 50px; /* Adds space above the image */
+  }
+
+  .profile-picture img {
+    width: 350px; /* Maintain the same width */
+    height: auto; /* Adjust height proportionally */
+    border: 3px solid white; /* Keeps the border */
+    object-fit: cover;
+  }
+  
+
+  /* People and University Links */
+  .person-link {
+    color: #72ae74; /* Green for people names */
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .person-link:hover {
+    text-decoration: underline;
+  }
+
+  .university-link {
+    color: #c89595; /* Blue for universities */
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .university-link:hover {
+    text-decoration: underline;
+  }
+
+  /* Navigation */
+  nav {
+    background-color: #333;
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .nav-links a:hover {
+    color: #4CAF50;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  ul li {
+    margin: 0.5rem 0;
+  }
+  
+/* Publications Section */
+.publication {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #f9f9f9; /* Light background for separation */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .publication h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .publication h3 a {
+    text-decoration: none;
+    color: #4CAF50; /* Accent color for links */
+  }
+  
+  .publication h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .publication .authors {
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem;
+    color: #555;
+    font-style: italic;
+  }
+  
+  .publication .details {
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem;
+    color: #666;
+  }
+
+  /*servers*/
+  .conference-list {
+    list-style: disc; /* Use bullet points for clarity */
+    padding-left: 1.5rem; /* Indent the list */
+    margin: 0.5rem 0; /* Add spacing between items */
+  }
+  
+  .conference-list li {
+    margin: 0.5rem 0; /* Add spacing between individual conferences */
+    font-size: 1rem; /* Standard text size */
+    color: #333; /* Standard text color */
+  }
+  
+  .conference-list li strong {
+    color: #4CAF50; /* Highlight bold parts with green for emphasis */
+  }
+
+  /* Teaching Section */
+  #teaching-experience {
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light background for distinction */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 2rem;
+  }
+
+  .teaching-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .teaching-list h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #4CAF50; /* Accent color for institution name */
+  }
+
+  .teaching-list p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555; /* Subtle text color for date range */
+  }
+
+  .course-list {
+    list-style: disc; /* Bullet points for courses */
+    padding-left: 1.5rem; /* Indent nested list */
+    margin-top: 0.5rem;
+  }
+
+  .course-list li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Standard text color */
+  }
+
+  .course-list li strong {
+    color: #1E90FF; /* Highlight course names in blue */
+  }
+
+
+
+/* Open Review Entry Styling */
+.open-review {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9; /* Light background for separation */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .open-review h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .open-review h3 a {
+    text-decoration: none;
+    color: #4CAF50; /* Accent color for links */
+  }
+  
+  .open-review h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .open-review .authors {
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem;
+    color: #555;
+    font-style: italic;
+  }
+  
+  .open-review .details {
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem;
+    color: #666;
+  }
+
+  /* Beyond Research Section */
+  #beyond-research {
+    padding: 2rem;
+    background-color: #ffffff; /* Subtle background for separation */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-bottom: 2rem;
+  }
+
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-content {
+      grid-template-columns: 1fr; /* Stacked layout on smaller screens */
+      text-align: center;
+    }
+  
+    .profile-picture img {
+      width: 250px; /* Resize profile picture for smaller screens */
+      height: 250px;
+    }
+  
+    .about-text h1 {
+      font-size: 2.5rem;
+    }
+  
+    .subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .about {
+      font-size: 0.9rem;
+    }
+  
+    .social-icons a {
+      font-size: 1.2rem;
+    }
+  }
