@@ -345,41 +345,44 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero {
-    padding-top: 3rem; /* Add space before the navigation bar */
-    padding-bottom: 2rem; /* Maintain vertical padding for balance */
+    padding-top: 5rem; /* Increase space above the hero section */
+    padding-bottom: 4rem; /* Increase space below the hero section */
+    min-height: 120vh; /* Ensure sufficient height for content on smaller screens */
+    text-align: center; /* Center-align text for better appearance */
   }
 
   .hero-content {
     grid-template-columns: 1fr; /* Stacked layout on smaller screens */
-    text-align: center;
-    padding: 1rem; /* Add padding to prevent overflow */
+    padding: 1rem; /* Prevent text or image overflow */
+    text-align: center; /* Center-align content */
   }
 
   .profile-picture {
-    margin: 0 auto; /* Center the profile picture */
+    margin: 2rem auto; /* Add more space above and center the profile picture */
     max-width: 100%; /* Ensure it doesn't exceed the container width */
   }
 
   .profile-picture img {
-    width: 120px; /* Resize profile picture for smaller screens */
+    width: 100px; /* Smaller size for mobile */
     height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Prevent overflow */
+    max-width: 100%; /* Prevent image overflow */
     border: 3px solid white;
     object-fit: cover;
   }
 
   .about-text h1 {
-    font-size: 2.5rem;
-    margin-top: 1rem; /* Add space above the heading */
+    font-size: 2.2rem;
+    margin-top: 1rem; /* Add space above the title */
   }
 
   .subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem; /* Add spacing for better separation */
   }
 
   .about {
     font-size: 0.9rem;
-    margin-top: 1rem; /* Add space for better readability */
+    margin-top: 1rem; /* Add space between sections */
   }
 
   .social-icons a {
