@@ -26,7 +26,7 @@ body {
   /* Hero Section with Adjusted Layout */
   .hero {
     position: relative;
-    height: 100vh;
+    padding: 4rem 2rem; /* Dynamic padding instead of fixed height */
     background: url('assets/bg2.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-start;
@@ -46,15 +46,6 @@ body {
     z-index: 1;
   }
   
-  .hero::after {
-    content: "Photo shot by Yixuan Gao";
-    position: absolute;
-    bottom: 5%;
-    right: 3%;
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.4); /* Subtle watermark */
-    z-index: 2;
-  }
   
   .hero-content {
     position: relative;
@@ -342,51 +333,27 @@ body {
     font-size: 0.9rem;
   }
   
-/* Responsive Design */
+/* Responsive Design for Mobile */
 @media (max-width: 768px) {
-  .hero {
-    padding-top: 5rem; /* Increase space above the hero section */
-    padding-bottom: 4rem; /* Increase space below the hero section */
-    min-height: 120vh; /* Ensure sufficient height for content on smaller screens */
-    text-align: center; /* Center-align text for better appearance */
-  }
-
   .hero-content {
-    grid-template-columns: 1fr; /* Stacked layout on smaller screens */
-    padding: 1rem; /* Prevent text or image overflow */
-    text-align: center; /* Center-align content */
-  }
-
-  .profile-picture {
-    margin: 2rem auto; /* Add more space above and center the profile picture */
-    max-width: 100%; /* Ensure it doesn't exceed the container width */
+    grid-template-columns: 1fr; /* Stack content vertically */
   }
 
   .profile-picture img {
-    width: 100px; /* Smaller size for mobile */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Prevent image overflow */
-    border: 3px solid white;
-    object-fit: cover;
+    width: 150px; /* Smaller size for mobile */
+    height: auto;
+    margin-top: 2rem;
   }
 
   .about-text h1 {
-    font-size: 2.2rem;
-    margin-top: 1rem; /* Add space above the title */
+    font-size: 2rem;
   }
 
   .subtitle {
     font-size: 1rem;
-    margin-bottom: 1rem; /* Add spacing for better separation */
   }
 
   .about {
     font-size: 0.9rem;
-    margin-top: 1rem; /* Add space between sections */
-  }
-
-  .social-icons a {
-    font-size: 1.2rem;
   }
 }
-
