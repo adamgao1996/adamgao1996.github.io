@@ -125,30 +125,37 @@ body {
     text-decoration: underline;
   }
 
-  /* Navigation */
-  nav {
+  /* Navigation Bar */
+  .nav {
     background-color: #333;
-    padding: 0.5rem 0;
-    position: sticky;
+    /* padding: 1rem 0; */
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 10;
   }
-  
+
   .nav-links {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-  
+
   .nav-links a {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 0.9rem;
+    text-decoration: none;
   }
-  
+
   .nav-links a:hover {
     color: #4CAF50;
   }
+
   
   /* Main Content */
   main {
@@ -355,5 +362,29 @@ body {
 
   .about {
     font-size: 0.9rem;
+  }
+
+  .nav-links {
+    display: none; /* Hide links by default on mobile */
+    flex-direction: column; /* Stack links vertically when shown */
+    background-color: #333;
+    position: absolute;
+    top: 100%; /* Position below the nav bar */
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .nav-links.active {
+    display: flex; /* Show links when active */
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger icon on mobile */
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 1rem;
   }
 }
