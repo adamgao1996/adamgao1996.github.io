@@ -381,10 +381,10 @@ body {
 
   .hamburger {
     display: block; /* Show hamburger icon on mobile */
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
     cursor: pointer;
-    margin-left: auto;
+    margin-left: 1rem;
     margin-right: 1rem;
   }
 }
