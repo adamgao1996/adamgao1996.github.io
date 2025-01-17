@@ -219,6 +219,41 @@ body {
     color: #666;
   }
 
+/* Media Coverage Section */
+.media-coverage {
+  margin-top: 0.5rem; /* Reduced space above */
+  padding: 0.5rem; /* Compact padding */
+  background-color: #f9f9f9; /* Light background for distinction */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.media-coverage h4 {
+  font-size: 1rem; /* Smaller title size */
+  margin-bottom: 0.3rem; /* Reduced space below title */
+  color: #000601; /* Green for section title */
+}
+
+.media-coverage ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0;
+  margin: 0;
+}
+
+.media-coverage ul li {
+  margin-bottom: 0.3rem; /* Compact spacing between items */
+  font-size: 0.95rem; /* Standard text size */
+}
+
+.media-coverage ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #1E90FF; /* Blue for links */
+}
+
+.media-coverage ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+  
   /*servers*/
   .conference-list {
     list-style: disc; /* Use bullet points for clarity */
@@ -229,11 +264,11 @@ body {
   .conference-list li {
     margin: 0.5rem 0; /* Add spacing between individual conferences */
     font-size: 1rem; /* Standard text size */
-    color: #333; /* Standard text color */
+    color: #6b0b0b; /* Standard text color */
   }
   
   .conference-list li strong {
-    color: #4CAF50; /* Highlight bold parts with green for emphasis */
+    color: #113f13; /* Highlight bold parts with green for emphasis */
   }
 
   /* Teaching Section */
@@ -343,6 +378,58 @@ body {
     font-size: 0.95rem;
     color: #666;
   }
+
+/* Work Section */
+#work-history {
+  margin-top: 50px;
+  padding: 2rem;
+  background-color: #ffffff; /* Consistent background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.work-list {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.work-list li {
+  margin-bottom: 2rem; /* Add spacing between entries */
+}
+
+.work-list h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #4CAF50; /* Highlight job titles */
+}
+
+.work-list h3 .company {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1E90FF; /* Highlight company names with blue */
+}
+
+.work-list p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #555; /* Subtle text color for details */
+}
+
+.work-list ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.work-list ul li {
+  list-style-type: disc; /* Add bullet points for responsibilities */
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 0.95rem; /* Slightly smaller font for bullet points */
+  line-height: 1.6;
+}
+
+
 
   /* Beyond Research Section */
   #beyond-research {
