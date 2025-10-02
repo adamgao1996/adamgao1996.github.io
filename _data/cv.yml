@@ -1,0 +1,141 @@
+- title: Basics
+  type: map
+  contents:
+    - name: Full Name
+      value: Yixuan Gao
+    - name: Label
+      value: PhD Candidate in Computer Science
+    - name: Email
+      value: yixuan@cs.cornell.edu
+    - name: Phone
+      value: 
+    - name: Url
+      value: https://gao-yixuan.com
+    - name: Summary
+      value: PhD Candidate at Cornell Tech specializing in wireless sensing systems, privacy-preserving technologies, and AI-driven sensing applications
+
+- title: Academic Affiliations
+  type: time_table
+  contents:
+    - title: PhD Candidate in Computer Science
+      institution: Cornell Tech, NYC, USA
+      year: 2019 - present
+      description:
+        - "Advisor: Rajalakshmi Nandakumar"
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computer Science
+      institution: Cornell Tech, USA
+      year: 2019 - Spring 2026 (expected)
+      description:
+        - "GPA: 4.0/4.0"
+        - "Advisor: Rajalakshmi Nandakumar"
+        - "Committee: Tanzeem Choudhury, Deborah Estrin"
+    - title: B.Math. in Computer Science
+      institution: University of Waterloo, Canada
+      year: 2014 - 2019
+      description:
+        - "GPA: 3.72/4.0"
+        - "Dean's Honours List, President's Scholarship"
+
+- title: Publications
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - "<strong>Yixuan Gao</strong>, Tanvir Ahmed, Shuang He, Zhongqi Cheng, Rajalakshmi Nandakumar. SoilSound: Smartphone-based Soil Moisture Estimation. <strong>Under Submission MobiCom 2026</strong>"
+    - year: 2025
+      items:
+        - "Bo Liu, <strong>Yixuan Gao</strong>, Yin Li, Rajalakshmi Nandakumar, Thijs Roumen. Assembly Stethoscope: Detecting Assembly Errors through Frequency Sweeping-A Feasibility Study. <strong>IASA 2025</strong>"
+        - "Zekun Chang, <strong>Yixuan Gao</strong>, Yuta Noma, Shuo Feng, Xinyi Yang, Kazuhiro Shinoda, Tung D Ta, Koji Yatani, Tomoyuki Yokota, Takao Someya, Yoshihiro Kawahara, Thijs Roumen. OriStitch: A Machine Embroidery Workflow to Turn Existing Fabrics into Self-Folding 3D Textiles. <strong>SCF 2025</strong>"
+        - "<strong>Yixuan Gao*</strong>, Tanvir Ahmed*, Zekun Chang, Thijs Roumen, Rajalakshmi Nandakumar. VitalHide: Enabling Privacy-Aware Wireless Sensing of Vital Signs. <strong>HotMobile 2025</strong>"
+    - year: 2024
+      items:
+        - "<strong>Yixuan Gao</strong>, Tanvir Ahmed, Mikhail Mohammed, Zhongqi Cheng, Rajalakshmi Nandakumar. Feasibility of Radio Frequency Based Wireless Sensing of Lead Contamination in Soil. <strong>EWSN 2024</strong> - <strong>Best Paper Award</strong>"
+    - year: 2022
+      items:
+        - "Alexander T Adams, Ilan Mandel, <strong>Yixuan Gao</strong>, Bryan W Heckman, Rajalakshmi Nandakumar, Tanzeem Choudhury. Equity-Driven Sensing System for Measuring Skin Tone–Calibrated Peripheral Blood Oxygen Saturation (OptoBeat): Development, Design, and Evaluation Study. <strong>JMIR Biomed Eng. 2022</strong>"
+    - year: 2018
+      items:
+        - "<strong>Yixuan Gao</strong>, Ali Abedi, Tim Brecht, Ramya Bhagavatula. Analyzing Bitrates in Modern Wi-Fi Networks. <strong>MobiCom 2018 (Poster)</strong>"
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - "<strong>Digital Life Initiative(DLI) Seminar:</strong> \"Seeing Without Seeing: Privacy Challenges in Innovations of Wireless Sensing\", Sep 2025"
+
+- title: Academic Community Service
+  type: nested_list
+  contents:
+    - title: Program Committee Member
+      items:
+        - "<strong>IUI</strong> 2025"
+        - "<strong>ICMI</strong> 2024"
+    - title: Reviewer
+      items:
+        - "<strong>CHI</strong> (2024-2026), <strong>HRI</strong> (2025), <strong>TEI</strong> (2025), <strong>AutomotiveUI</strong> (2024-2025)"
+        - "<strong>CSCW</strong> (2024), <strong>DIS</strong> (2024-2025), <strong>ICIS</strong> (2024), <strong>SUI</strong> (2024)"
+        - "<strong>UbiComp/ISWC</strong> (2024), <strong>CogSci</strong> (2025), <strong>Creativity & Cognition</strong> (2025)"
+        - "<strong>IMX</strong> (2025), <strong>UIST</strong> (2025), <strong>ICWSM</strong> (2025), <strong>JMIR</strong>"
+        - "<em>50+ reviews completed</em>"
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Teaching Assistant at Cornell University
+      year: 2019-2025
+      description:
+        - "<strong>CS5304</strong> Data Science in the Wild, Spring 2021, 2022"
+        - "<strong>INFO5600</strong> AI in Healthcare, Fall 2021, 2022, 2025"
+        - "<strong>INFO6310</strong> Behavioral Science, Fall 2020"
+        - "<strong>CS4700/5700</strong> Artificial Intelligence, Spring 2020"
+        - "<strong>CS4320/5320</strong> Database Systems, Fall 2019"
+
+- title: Work History
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Cornell University
+      year: 2019-present
+      description:
+        - "deploying AI-driven wireless sensing systems, and developing anti-sensing technologies"
+    - title: Research Assistant
+      institution: University of Waterloo
+      year: 2017-2018
+      description:
+        - "characterizing 802.11n Wi-Fi network and developing learning-based rate adaptation algorithms"
+    - title: Software Developer
+      institution: OpenText
+      year: 2017
+      description:
+        - "SFTP server development, REST API implementation, automated testing"
+    - title: Software Developer
+      institution: Moody's Analytics
+      year: 2016-2017
+      description:
+        - "AXIS software suite feature implementation and optimization"
+    - title: Actuarial Intern
+      institution: Manulife
+      year: 2015
+      description:
+        - "Actuarial model calculations and validations"
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - "Python, C++, Java, JavaScript, MATLAB"
+    - title: Machine Learning & AI
+      items:
+        - "Deep Learning, Computer Vision, Signal Processing"
+    - title: Wireless Systems
+      items:
+        - "RF Sensing, Software Defined Radio, IoT Systems"
+    - title: Tools & Frameworks
+      items:
+        - "TensorFlow, PyTorch, GNU Radio, LaTeX"

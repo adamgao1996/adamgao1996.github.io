@@ -1,0 +1,289 @@
+/*******************************************************************************
+ * Themes - 现代优雅主题系统
+ ******************************************************************************/
+
+@use "sass:color";
+
+// Light Theme - 浅色主题
+:root {
+  color-scheme: light;
+  
+  // Background Colors
+  --global-bg-color: #{$white-color};
+  --global-bg-color-secondary: #f8fafc;
+  --global-bg-color-accent: #f1f5f9;
+  
+  // Code Colors
+  --global-code-bg-color: #{$code-bg-color-light};
+  --global-code-text-color: #{$code-text-color-light};
+  
+  // Text Colors
+  --global-text-color: #111827;
+  --global-text-color-light: #6b7280;
+  --global-text-color-muted: #9ca3af;
+  
+  // Theme Colors - 使用现代蓝色
+  --global-theme-color: #{$blue-color};
+  --global-hover-color: #{$blue-color-dark};
+  --global-hover-text-color: #{$white-color};
+  
+  // Footer
+  --global-footer-bg-color: #f9fafb;
+  --global-footer-text-color: #4b5563;
+  --global-footer-link-color: #{$blue-color};
+  
+  // UI Elements
+  --global-distill-app-color: #{$grey-color};
+  --global-divider-color: rgba(0, 0, 0, 0.08);
+  --global-card-bg-color: #{$white-color};
+  --global-card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  --global-highlight-color: #{$blue-color};
+  
+  // Back to Top Button
+  --global-back-to-top-bg-color: rgba(37, 99, 235, 0.9);
+  --global-back-to-top-text-color: #{$white-color};
+  
+  // Newsletter
+  --global-newsletter-bg-color: #eff6ff;
+  --global-newsletter-text-color: #{$blue-color-dark};
+  
+  // Links
+  --global-link-color: #{$blue-color};
+  --global-link-hover-color: #{$blue-color-dark};
+  
+  // Buttons
+  --global-button-bg-color: #{$blue-color};
+  --global-button-text-color: #{$white-color};
+  --global-button-hover-bg-color: #{$blue-color-dark};
+  
+  // Alert Blocks
+  --global-tip-block: #059669;
+  --global-tip-block-bg: #d1fae5;
+  --global-tip-block-text: #064e3b;
+  --global-tip-block-title: #047857;
+  
+  --global-warning-block: #eab308;
+  --global-warning-block-bg: #fef3c7;
+  --global-warning-block-text: #713f12;
+  --global-warning-block-title: #a16207;
+  
+  --global-danger-block: #dc2626;
+  --global-danger-block-bg: #fee2e2;
+  --global-danger-block-text: #7f1d1d;
+  --global-danger-block-title: #991b1b;
+  
+  // Scrollbar
+  --global-scrollbar-track: #f1f5f9;
+  --global-scrollbar-thumb: #cbd5e1;
+  --global-scrollbar-thumb-hover: #94a3b8;
+
+  // Theme Toggle Icons
+  #light-toggle-system {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  .only-light {
+    display: block;
+  }
+
+  .only-dark {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+    bottom: $back-to-top-bottom;
+    right: $back-to-top-right;
+    height: $back-to-top-height;
+    width: $back-to-top-width;
+    z-index: $back-to-top-z-index;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+// Dark Theme - 深色主题
+html[data-theme="dark"] {
+  color-scheme: dark;
+  
+  // Background Colors - 深蓝灰色调
+  --global-bg-color: #0f172a;
+  --global-bg-color-secondary: #1e293b;
+  --global-bg-color-accent: #334155;
+  
+  // Code Colors
+  --global-code-bg-color: #{$code-bg-color-dark};
+  --global-code-text-color: #{$code-text-color-dark};
+  
+  // Text Colors
+  --global-text-color: #e2e8f0;
+  --global-text-color-light: #94a3b8;
+  --global-text-color-muted: #64748b;
+  
+  // Theme Colors - 明亮的蓝色
+  --global-theme-color: #60a5fa;
+  --global-hover-color: #93bbfc;
+  --global-hover-text-color: #0f172a;
+  
+  // Footer
+  --global-footer-bg-color: #1e293b;
+  --global-footer-text-color: #94a3b8;
+  --global-footer-link-color: #60a5fa;
+  
+  // UI Elements
+  --global-distill-app-color: #cbd5e1;
+  --global-divider-color: rgba(148, 163, 184, 0.1);
+  --global-card-bg-color: #1e293b;
+  --global-card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  
+  // Back to Top Button
+  --global-back-to-top-bg-color: rgba(96, 165, 250, 0.9);
+  --global-back-to-top-text-color: #0f172a;
+  
+  // Newsletter
+  --global-newsletter-bg-color: #1e293b;
+  --global-newsletter-text-color: #cbd5e1;
+  
+  // Links
+  --global-link-color: #60a5fa;
+  --global-link-hover-color: #93bbfc;
+  
+  // Buttons
+  --global-button-bg-color: #60a5fa;
+  --global-button-text-color: #0f172a;
+  --global-button-hover-bg-color: #93bbfc;
+  
+  // Alert Blocks - 深色模式优化
+  --global-tip-block: #10b981;
+  --global-tip-block-bg: #064e3b;
+  --global-tip-block-text: #d1fae5;
+  --global-tip-block-title: #34d399;
+  
+  --global-warning-block: #f59e0b;
+  --global-warning-block-bg: #713f12;
+  --global-warning-block-text: #fef3c7;
+  --global-warning-block-title: #fbbf24;
+  
+  --global-danger-block: #ef4444;
+  --global-danger-block-bg: #7f1d1d;
+  --global-danger-block-text: #fee2e2;
+  --global-danger-block-title: #f87171;
+  
+  // Scrollbar
+  --global-scrollbar-track: #1e293b;
+  --global-scrollbar-thumb: #475569;
+  --global-scrollbar-thumb-hover: #64748b;
+
+  .only-light {
+    display: none;
+  }
+
+  .only-dark {
+    display: block;
+  }
+}
+
+// Theme Setting: Dark
+html[data-theme-setting="dark"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+  }
+}
+
+// Theme Setting: Light
+html[data-theme-setting="light"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+}
+
+// Custom Scrollbar Styles
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--global-scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--global-scrollbar-thumb);
+  border-radius: 5px;
+  
+  &:hover {
+    background: var(--global-scrollbar-thumb-hover);
+  }
+}
+
+// Smooth Transitions
+* {
+  transition: background-color 0.3s ease, 
+              color 0.3s ease,
+              border-color 0.3s ease;
+}
+
+// Accent Theme Variations (可选)
+// 你可以通过添加 data-accent 属性来切换不同的强调色
+html[data-accent="purple"] {
+  --global-theme-color: #{$purple-color};
+  --global-hover-color: #{color.adjust($purple-color, $lightness: -10%)};
+  --global-link-color: #{$purple-color};
+  --global-button-bg-color: #{$purple-color};
+}
+
+html[data-accent="green"] {
+  --global-theme-color: #{$green-color};
+  --global-hover-color: #{$green-color-dark};
+  --global-link-color: #{$green-color};
+  --global-button-bg-color: #{$green-color};
+}
+
+html[data-accent="cyan"] {
+  --global-theme-color: #{$cyan-color};
+  --global-hover-color: #{color.adjust($cyan-color, $lightness: -10%)};
+  --global-link-color: #{$cyan-color};
+  --global-button-bg-color: #{$cyan-color};
+}

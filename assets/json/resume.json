@@ -1,0 +1,167 @@
+{
+  "basics": {
+    "name": "Yixuan Gao",
+    "label": "PhD Candidate in Computer Science",
+    "image": "",
+    "email": "yixuan@cs.cornell.edu",
+    "phone": "",
+    "url": "https://gao-yixuan.com",
+    "summary": "PhD Candidate at Cornell Tech specializing in wireless sensing systems, privacy-preserving technologies, and AI-driven sensing applications",
+    "location": {
+      "address": "2 W Loop Road",
+      "postalCode": "NY 10044",
+      "city": "New York",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "Website",
+        "username": "gao-yixuan",
+        "url": "https://gao-yixuan.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Cornell University",
+      "position": "Research Assistant",
+      "url": "https://cornell.edu",
+      "startDate": "2019-01-01",
+      "endDate": "present",
+      "summary": "Deploying AI-driven wireless sensing systems and developing anti-sensing technologies",
+      "highlights": ["Wireless Sensing", "Privacy Technologies", "AI Systems"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Academic Community",
+      "location": "Global",
+      "position": "Program Committee Member & Reviewer",
+      "url": "",
+      "startDate": "2024-01-01",
+      "endDate": "present",
+      "summary": "Program Committee Member for IUI 2025, ICMI 2024. Reviewer for 50+ papers across CHI, HRI, TEI, CSCW, DIS, and other top-tier venues.",
+      "highlights": ["Program Committee Member: IUI 2025, ICMI 2024", "50+ reviews completed across top-tier venues"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cornell Tech, USA",
+      "location": "New York, NY, USA",
+      "url": "https://tech.cornell.edu/",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "startDate": "2019-01-01",
+      "endDate": "2026-05-01",
+      "score": "4.0/4.0",
+      "courses": ["Wireless Sensing", "Privacy Technologies", "AI Systems"]
+    },
+    {
+      "institution": "University of Waterloo, Canada",
+      "location": "Waterloo, ON, Canada",
+      "url": "https://uwaterloo.ca/",
+      "area": "Computer Science",
+      "studyType": "B.Math.",
+      "startDate": "2014-01-01",
+      "endDate": "2019-01-01",
+      "score": "3.72/4.0",
+      "courses": ["Dean's Honours List", "President's Scholarship"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "EWSN 2024 Best Paper Award",
+      "date": "2024-02-01",
+      "awarder": "21st International Conference on Embedded Wireless Systems and Networks",
+      "url": "https://ewsn.org/",
+      "summary": "Best Paper Award for 'Feasibility of Radio Frequency Based Wireless Sensing of Lead Contamination in Soil'"
+    }
+  ],
+  "certificates": [],
+
+  "publications": [
+    {
+      "name": "SoilSound: Smartphone-based Soil Moisture Estimation",
+      "publisher": "Under Submission MobiCom 2026",
+      "releaseDate": "2025-09-01",
+      "url": "https://arxiv.org/abs/2509.09823",
+      "summary": "A novel smartphone-based approach that uses acoustic sensing to estimate soil moisture levels for precision agriculture and environmental monitoring."
+    },
+    {
+      "name": "VitalHide: Enabling Privacy-Aware Wireless Sensing of Vital Signs",
+      "publisher": "HotMobile 2025",
+      "releaseDate": "2025-01-01",
+      "url": "https://dl.acm.org/doi/10.1145/3708468.3711880",
+      "summary": "Developing privacy-preserving techniques that enable vital sign monitoring while protecting user privacy using differential privacy and secure computation methods."
+    },
+    {
+      "name": "Feasibility of Radio Frequency Based Wireless Sensing of Lead Contamination in Soil",
+      "publisher": "EWSN 2024",
+      "releaseDate": "2024-02-01",
+      "url": "https://ewsn.org/file-repository/ewsn2024/ewsn24-final99.pdf",
+      "summary": "Best Paper Award. Novel RF-based wireless sensing techniques to detect lead contamination levels in soil samples across various soil types and contamination levels."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Wireless Systems",
+      "level": "Expert",
+      "icon": "fa-solid fa-wifi",
+      "keywords": [
+        "RF Sensing",
+        "Software Defined Radio",
+        "IoT Systems",
+        "Wireless Communications"
+      ]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "level": "Expert",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Deep Learning",
+        "Computer Vision",
+        "Signal Processing",
+        "TensorFlow",
+        "PyTorch"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wireless Sensing",
+      "icon": "fa-solid fa-wave-square",
+      "keywords": [
+        "Privacy Technologies",
+        "AI Systems",
+        "IoT",
+        "Signal Processing"
+      ]
+    }
+  ],
+  "references": [],
+
+  "projects": [
+    {
+      "name": "VitalHide",
+      "summary": "Privacy-aware wireless sensing system for vital signs monitoring using differential privacy and secure computation methods.",
+      "highlights": ["Privacy Technologies", "Wireless Sensing"],
+      "startDate": "2024-01-01",
+      "endDate": "2025-01-01",
+      "url": "https://dl.acm.org/doi/10.1145/3708468.3711880"
+    }
+  ]
+}
