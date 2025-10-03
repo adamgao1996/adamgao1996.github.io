@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+<!--
+    SensorAlert: Acoustic Radar Scanner
+    © 2025 Yixuan Gao. All rights reserved.
+    
+    Real-time ultrasonic privacy protection system
+    Original work created by Yixuan Gao 
+    
+    This software is protected by copyright law.
+    Unauthorized reproduction or distribution is prohibited.
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -344,12 +354,37 @@
         .hidden {
             display: none;
         }
+
+        .footer {
+            background: rgba(46, 46, 46, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: center;
+            border: 1px solid rgba(0, 255, 65, 0.1);
+        }
+
+        .copyright {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .copyright strong {
+            color: #00ff41;
+        }
+
+        .author-info {
+            color: #666;
+            font-size: 0.8em;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🛡️ Acoustic FMCW Scanner</h1>
+            <h1>🛡️ Acoustic Radar Scanner</h1>
             <p>Real-time ultrasonic privacy protection for your device</p>
         </div>
 
@@ -435,6 +470,16 @@
                 <div class="log-entry log-info">[Ready] Click 'Start Scan' to begin monitoring</div>
             </div>
         </div>
+
+        <!-- Copyright Footer -->
+        <div class="footer">
+            <div class="copyright">
+                <strong>© 2025 Yixuan Gao. All rights reserved.</strong>
+            </div>
+            <div class="author-info">
+                SensorAlert: Acoustic Radar Scanner | Original work by Yixuan Gao, Cornell University
+            </div>
+        </div>
     </div>
 
     <!-- Permission Modal -->
@@ -448,6 +493,17 @@
     </div>
 
     <script>
+        /*
+         * SensorAlert: Acoustic FMCW Scanner
+         * © 2025 Yixuan Gao. All rights reserved.
+         * 
+         * Real-time ultrasonic privacy protection system
+         * Advanced pattern detection and threat assessment algorithms
+         * 
+         * This code is the original work of Yixuan Gao.
+         * Unauthorized reproduction or distribution is prohibited.
+         */
+
         // Application state
         let isScanning = false;
         let audioContext = null;
