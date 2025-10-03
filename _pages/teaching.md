@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Teaching experience at Cornell University as a Teaching Assistant for various computer science and data science courses.
+# description: Teaching experience at Cornell University as a Teaching Assistant for various computer science and information science courses.
 nav: true
 nav_order: 6
 ---

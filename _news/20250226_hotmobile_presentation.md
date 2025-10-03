@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented **"VitalHide"** at HotMobile 2025 in the "Sensing, Privacy, and AI" session. [Program](https://hotmobile.org/2025/index.php?id=program)
+🎙️ **Conference Talk** at **HotMobile 2025**: Presented "VitalHide" in the "Sensing, Privacy, and AI" session. [Program](https://hotmobile.org/2025/index.php?id=program)

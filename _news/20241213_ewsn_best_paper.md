@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **"VitalHide: Privacy-Preserving Wireless Vital Sign Sensing with Multi-Protocol Shielding"** won the **Best Paper Award** at [EWSN 2024](https://ewsn24.tii.ae/awards.html)!
+🏆📄 Our paper **"Feasibility of Radio Frequency Based Wireless Sensing of Lead Contamination in Soil"** won the **Best Paper Award** at [EWSN 2024](https://ewsn24.tii.ae/awards.html)!
