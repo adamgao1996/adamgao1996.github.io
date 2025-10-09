@@ -46,4 +46,4 @@ The scanner uses Web Audio API to capture microphone input and performs FFT anal
 }
 ```
 
-*For commercial licensing inquiries, please contact: yg478@cornell.edu* -->
+*For commercial licensing inquiries, please contact: yg478 at cornell.edu* -->
