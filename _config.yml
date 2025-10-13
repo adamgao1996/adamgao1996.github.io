@@ -9,12 +9,11 @@ last_name: Gao
 contact_note: >
   Feel free to reach out to me via email or connect on LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Yixuan Gao's academic website. PhD candidate at Cornell Tech working on wireless sensing and privacy-preserving technologies.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Yixuan Gao, Cornell Tech, wireless sensing, privacy technology, machine learning, PhD candidate, computer science, mobile systems
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -86,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: yg_bog # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Yixuan's Research Blog # blog_name will be displayed in your blog page
+blog_description: Insights on wireless sensing, privacy technology, and mobile computing research
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
