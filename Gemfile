@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 4.3.0'
 gem 'webrick', '~> 1.8'
 
+# Fix sass-embedded compatibility issue
+gem 'jekyll-sass-converter', '~> 2.2.0'
+gem 'sassc', '~> 2.4.0'
+
 # Core plugins that directly affect site building
 group :jekyll_plugins do
     gem 'jekyll-archives-v2'

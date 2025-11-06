@@ -269,7 +269,7 @@ html[data-theme-setting="light"] {
 // 你可以通过添加 data-accent 属性来切换不同的强调色
 html[data-accent="purple"] {
   --global-theme-color: #{$purple-color};
-  --global-hover-color: #{color.adjust($purple-color, $lightness: -10%)};
+  --global-hover-color: #{darken($purple-color, 10%)};
   --global-link-color: #{$purple-color};
   --global-button-bg-color: #{$purple-color};
 }
@@ -283,7 +283,7 @@ html[data-accent="green"] {
 
 html[data-accent="cyan"] {
   --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{color.adjust($cyan-color, $lightness: -10%)};
+  --global-hover-color: #{darken($cyan-color, 10%)};
   --global-link-color: #{$cyan-color};
   --global-button-bg-color: #{$cyan-color};
 }

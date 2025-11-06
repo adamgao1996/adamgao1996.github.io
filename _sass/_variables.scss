@@ -17,14 +17,14 @@ $orange-color: #ea580c !default;
 $blue-color: #2563eb !default;
 $blue-color-dark: #1e40af !default;
 $cyan-color: #0891b2 !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
+$light-cyan-color: lighten($cyan-color, 25%);
 $green-color: #059669 !default;
 $green-color-lime: #84cc16 !default;
 $green-color-dark: #047857 !default;
 $green-color-light: #d1fae5 !default;
 $green-color-bright: #10b981 !default;
 $purple-color: #7c3aed !default;      // 更现代的紫色
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
+$light-purple-color: lighten($purple-color, 25%);
 $pink-color: #ec4899 !default;
 $pink-color-light: #fce7f3 !default;
 $yellow-color: #eab308 !default;
