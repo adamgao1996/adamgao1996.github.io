@@ -4,21 +4,22 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
+cv_pdf: Yixuan_CV_20251124.pdf
 ---
 
 <div class="cv-container">
   <div class="cv-header" style="text-align: center; margin-bottom: 20px;">
-    <p><a href="{{ '/assets/pdf/Yixuan_CV_20251002.pdf' | relative_url }}" target="_blank" class="btn btn-primary">📄 Download PDF</a></p>
+    <p><a href="{{ '/assets/pdf/' | append: page.cv_pdf | relative_url }}" target="_blank" class="btn btn-primary">📄 Download PDF</a></p>
   </div>
   
   <div class="cv-embed" style="width: 100%; height: 800px; border: 1px solid #ddd; border-radius: 8px;">
     <iframe 
-      src="{{ '/assets/pdf/Yixuan_CV_20251002.pdf' | relative_url }}" 
+      src="{{ '/assets/pdf/' | append: page.cv_pdf | relative_url }}" 
       width="100%" 
       height="100%" 
       frameborder="0"
       style="border-radius: 8px;">
-      <p>Your browser does not support PDFs. <a href="{{ '/assets/pdf/Yixuan_CV_20251002.pdf' | relative_url }}" target="_blank">Download the PDF</a>.</p>
+      <p>Your browser does not support PDFs. <a href="{{ '/assets/pdf/' | append: page.cv_pdf | relative_url }}" target="_blank">Download the PDF</a>.</p>
     </iframe>
   </div>
 </div>
