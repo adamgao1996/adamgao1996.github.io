@@ -9,11 +9,11 @@ last_name: Gao
 contact_note: >
   Feel free to reach out to me via email or connect on LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yixuan Gao's academic website. PhD candidate at Cornell Tech working on wireless sensing and privacy-preserving technologies.
+  Yixuan Gao's academic website. Research Scientist at Meta; Ph.D. from Cornell Tech, working on wireless sensing and privacy-preserving technologies.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Yixuan Gao, Cornell Tech, wireless sensing, privacy technology, machine learning, PhD candidate, computer science, mobile systems
+keywords: Yixuan Gao, Meta, Research Scientist, Cornell Tech, wireless sensing, privacy technology, machine learning, computer science, mobile systems
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

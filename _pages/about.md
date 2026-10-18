@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate in Computer Science from Cornell Tech
+subtitle: Research Scientist at Meta
 
 profile:
   align: right
@@ -34,8 +34,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
  -->
 
-I am Yixuan Gao, a PhD candidate at Cornell Tech. My advisor is [Prof. Rajalakshmi Nandakumar](https://infosci.cornell.edu/~rajalakshmi/), and my PhD committee includes [Prof. Tanzeem Choudhury](https://tech.cornell.edu/people/tanzeem-choudhury/) and [Prof. Deborah Estrin](https://destrin.tech.cornell.edu/). Before coming to Cornell, I conducted undergraduate research under the supervision of [Prof. Tim Brecht](https://cs.uwaterloo.ca/~brecht/) and [Prof. Ali Abedi](https://pages.cs.wisc.edu/~abedi/) at the University of Waterloo.
+I am Yixuan Gao, a Research Scientist at Meta. I received my Ph.D. in Computer Science from Cornell Tech, where I was advised by [Prof. Rajalakshmi Nandakumar](https://infosci.cornell.edu/~rajalakshmi/); my PhD committee included [Prof. Tanzeem Choudhury](https://tech.cornell.edu/people/tanzeem-choudhury/) and [Prof. Deborah Estrin](https://destrin.tech.cornell.edu/). Before coming to Cornell, I conducted undergraduate research under the supervision of [Prof. Tim Brecht](https://cs.uwaterloo.ca/~brecht/) and [Prof. Ali Abedi](https://pages.cs.wisc.edu/~abedi/) at the University of Waterloo.
 
-I am passionate about building AI-driven wireless sensing and communication systems to address challenges in health and the environment. I also explore the privacy implications of wireless technologies, with a focus on the ethical conduct of wireless sensing and communication. This includes ongoing collaborative work with [Prof. Helen Nissenbaum](https://nissenbaum.tech.cornell.edu/).
+My research focuses on building AI-driven wireless sensing and communication systems to address challenges in health and the environment. I also explore the privacy implications of wireless technologies, with a focus on the ethical conduct of wireless sensing and communication. This includes collaborative work with [Prof. Helen Nissenbaum](https://nissenbaum.tech.cornell.edu/).
 
-I am also involved in HCI and digital fabrication research, with ongoing collaborations with [Prof. Thijs Roumen](https://www.thijsroumen.eu/). This interdisciplinary work explores the intersection of computational design, interactive systems, and advanced manufacturing techniques.
+I have also worked on HCI and digital fabrication research, in collaboration with [Prof. Thijs Roumen](https://www.thijsroumen.eu/). This interdisciplinary work explores the intersection of computational design, interactive systems, and advanced manufacturing techniques.

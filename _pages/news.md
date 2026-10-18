@@ -16,7 +16,7 @@ published: false
         <tbody id="news-initial">
           {% for item in news limit: 5 %}
             <tr>
-              <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+              <th scope="row" style="width: 20%">{% if item.display_date %}{{ item.display_date }}{% else %}{{ item.date | date: '%b %d, %Y' }}{% endif %}</th>
               <td>
                 {% if item.inline %}
                   {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
@@ -33,7 +33,7 @@ published: false
           <tbody id="news-additional" style="display: none;">
             {% for item in news offset: 5 %}
               <tr>
-                <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+                <th scope="row" style="width: 20%">{% if item.display_date %}{{ item.display_date }}{% else %}{{ item.date | date: '%b %d, %Y' }}{% endif %}</th>
                 <td>
                   {% if item.inline %}
                     {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
