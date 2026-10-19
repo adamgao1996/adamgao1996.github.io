@@ -2,7 +2,7 @@
 layout: page
 permalink: /cv/
 title: cv
-nav: true
+nav: false
 nav_order: 5
 cv_pdf: Yixuan_CV_20251124.pdf
 ---

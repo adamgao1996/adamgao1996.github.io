@@ -4,7 +4,7 @@
     - name: Full Name
       value: Yixuan Gao
     - name: Label
-      value: PhD Candidate in Computer Science
+      value: Research Scientist at Meta
     - name: Email
       value: yixuan@cs.cornell.edu
     - name: Phone
@@ -12,14 +12,17 @@
     - name: Url
       value: https://gao-yixuan.com
     - name: Summary
-      value: PhD Candidate at Cornell Tech specializing in wireless sensing systems, privacy-preserving technologies, and AI-driven sensing applications
+      value: Research Scientist at Meta; Ph.D. in Computer Science from Cornell Tech, specializing in wireless sensing systems, privacy-preserving technologies, and AI-driven sensing applications
 
-- title: Academic Affiliations
+- title: Affiliations
   type: time_table
   contents:
+    - title: Research Scientist
+      institution: Meta
+      year: July 2026 - present
     - title: PhD Candidate in Computer Science
       institution: Cornell Tech, NYC, USA
-      year: 2019 - present
+      year: 2019 - 2026
       description:
         - "Advisor: Rajalakshmi Nandakumar"
 
@@ -28,8 +31,9 @@
   contents:
     - title: Ph.D. in Computer Science
       institution: Cornell Tech, USA
-      year: 2019 - Spring 2026 (expected)
+      year: 2019 - 2026
       description:
+        - "Dissertation defended May 11, 2026"
         - "GPA: 4.0/4.0"
         - "Advisor: Rajalakshmi Nandakumar"
         - "Committee: Tanzeem Choudhury, Deborah Estrin"
@@ -45,9 +49,16 @@
   contents:
     - year: 2026
       items:
-        - "<strong>Yixuan Gao</strong>, Tanvir Ahmed, Shuang He, Zhongqi Cheng, Rajalakshmi Nandakumar. SoilSound: Smartphone-based Soil Moisture Estimation. <strong>Under Submission MobiCom 2026</strong>"
+        - "Adnan Armouti, <strong>Yixuan Gao</strong>, Rajalakshmi Nandakumar. 3D Point Splatting for mmWave Radar Novel View Synthesis. <strong>NeurIPS 2026</strong>"
+        - "Xiangyi Li, Yimin Liu, Wenbo Chen, <strong>Yixuan Gao</strong>, et al. SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks. <strong>NeurIPS 2026 (Evaluations and Datasets Track)</strong>"
+        - "Tanvir Ahmed, <strong>Yixuan Gao</strong>, Adnan Armouti, Rajalakshmi Nandakumar. mmFHE: mmWave Sensing with End-to-End Fully Homomorphic Encryption. <strong>MobiCom 2026</strong>"
+        - "Zekun Chang, Tianhong Catherine Yu, <strong>Yixuan Gao</strong>, Thijs Roumen. StitchOver: Technical Embroidery on Seamed Fabrics. <strong>UIST 2026</strong>"
+        - "Adnan Armouti, <strong>Yixuan Gao</strong>, Rajalakshmi Nandakumar. mmIR: Frequency-Space Inverse Rendering for 3D Millimeter-Wave Radar ADC Synthesis. <strong>ECCV 2026</strong>"
+        - "Shuang He, <strong>Yixuan Gao</strong>, Rajalakshmi Nandakumar. RadarAgent: Agentic Tool Utilization for Radar-to-Language Understanding. <strong>HumanSys 2026</strong>"
     - year: 2025
       items:
+        - "<strong>Yixuan Gao</strong>*, Tanvir Ahmed*, Zekun Chang, Thijs Roumen, Rajalakshmi Nandakumar. PrivyWave: Privacy-Aware Wireless Sensing of Heartbeat. <strong>arXiv preprint</strong>"
+        - "<strong>Yixuan Gao</strong>, Tanvir Ahmed, Shuang He, Zhongqi Cheng, Rajalakshmi Nandakumar. SoilSound: Smartphone-based Soil Moisture Estimation. <strong>arXiv preprint</strong>"
         - "Bo Liu, <strong>Yixuan Gao</strong>, Yin Li, Rajalakshmi Nandakumar, Thijs Roumen. Assembly Stethoscope: Detecting Assembly Errors through Frequency Sweeping-A Feasibility Study. <strong>IASA 2025</strong>"
         - "Zekun Chang, <strong>Yixuan Gao</strong>, Yuta Noma, Shuo Feng, Xinyi Yang, Kazuhiro Shinoda, Tung D Ta, Koji Yatani, Tomoyuki Yokota, Takao Someya, Yoshihiro Kawahara, Thijs Roumen. OriStitch: A Machine Embroidery Workflow to Turn Existing Fabrics into Self-Folding 3D Textiles. <strong>SCF 2025</strong>"
         - "<strong>Yixuan Gao*</strong>, Tanvir Ahmed*, Zekun Chang, Thijs Roumen, Rajalakshmi Nandakumar. VitalHide: Enabling Privacy-Aware Wireless Sensing of Vital Signs. <strong>HotMobile 2025</strong>"
@@ -98,9 +109,12 @@
 - title: Work History
   type: time_table
   contents:
+    - title: Research Scientist
+      institution: Meta
+      year: 2026-present
     - title: Research Assistant
       institution: Cornell University
-      year: 2019-present
+      year: 2019-2026
       description:
         - "deploying AI-driven wireless sensing systems, and developing anti-sensing technologies"
     - title: Research Assistant
